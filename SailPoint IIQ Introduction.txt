@@ -63,6 +63,7 @@ SailPoint Offers:
 Why Choose SailPoint?
 ---------------------
 - Leader in the IAM/IGA space
+- Scalable, reliable, and secure
 - Highly customizable
 - Easy migration from other tools
 - Strong support system:
