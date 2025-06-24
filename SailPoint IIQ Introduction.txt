@@ -1,7 +1,4 @@
 
-SailPoint Learning Notes
-=========================
-
 Introduction to SailPoint
 -------------------------
 Before diving into SailPoint, it's essential to understand IAM (Identity and Access Management).
@@ -15,13 +12,12 @@ Providing the right access to the right identity at the right time to the right 
 
 Right Access Means:
 - Users have correct roles and entitlements
-- Passwords are managed securely and timely
+- Managing passwords correctly and timely
 - Access is reviewed periodically
 
 Right Time – LCM (Lifecycle Management):
 IAM uses LCM to manage identity from:
 - Joining
-- Promotion
 - Transfers
 - Termination
 
@@ -33,7 +29,7 @@ Also, access reviews help ensure access is granted only when needed.
 
 What is an Identity?
 --------------------
-In IAM, a user is called an identity.
+In IAM, a user is called an identity in digital world.
 
 Types of Identities:
 - Human identities: Employees, contractors, third-party vendors
