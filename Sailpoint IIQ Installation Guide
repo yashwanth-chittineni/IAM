@@ -9,7 +9,7 @@ Purpose: Because Sailpoint architecture and functionalities(features) are based 
 Apache Tomcat server 
 --version 9
 It is an open-source software 
-Purpose: to perform deployment and run the SailPoint software 
+Purpose: to perform deployment and run the SailPoint application 
 
 MySql workbench
 --version 8
