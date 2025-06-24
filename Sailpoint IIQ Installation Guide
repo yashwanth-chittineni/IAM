@@ -1,0 +1,59 @@
+Sailpoint IIQ Installation Guide==>
+
+For installation, we need 4 components:
+
+Java
+-- version is 1.8,
+Purpose: Because Sailpoint architecture and functionalities(features) are based on the Java language  
+
+Apache Tomcat server 
+--version 9
+It is an open-source software 
+Purpose: to perform deployment and run the SailPoint software 
+
+MySql workbench
+--version 8
+It is an open-source software for relational database management systems.
+Purpose: It uses Structured Query Language to store, retrieve, manage, and manipulate data in the database 
+
+SailPoint IIQ software
+-- version 8.4
+It is in the form of a war file. WAR(web-archive) package of web application containing HTML, CSS, JAR, XML, and Java codes
+
+
+Steps to install:
+
+1) 
+First, download Java and place it in Program Files, and open the environmental variables. Now, create Java_HOME and PATH variables. 
+Java_HOME contains the path to the Java (JDK) folder. ---> Home variables are used by other applications that require or depend on Java to run or execute.
+Path variable contains the complete path including the bin folder---> Path variable is used by the operating system to execute Java commands.
+
+2)
+Next, we need to install the Tomcat server and install it and while the installation, make sure you give the correct Java path and verify the port no that the Tomcat server is running on. 
+
+Now you need to verify whether all folders are available in the program files and test by running the Tomcat server in a web browser using localhost: portnumber. The default port number is 8080
+
+3)
+Now, download the IIQ zip file, extract it, and place the extracted IIQ war file in Apache Tomcat ->webapps. Once we place it. We can see identityiq folder available in the same location. 
+
+4) 
+Now, download MySQL Workbench and install it. After installation, go to the sailpointiq folder-> web-inf folder->database folder-> Now open the create db tables using MySQL and copy the script and paste it in workbench and execute the script. At the end, you should see successful completion.
+
+Now you need to open the command prompt and set the location to C ->program files folder-> Apache folder->sailpointiq folder-> web-inf folder->bin folder
+
+Now to we need to type the command iiq console, then it will prompt the cursor to type commands
+										|
+										v
+(iiq console is used to execute commands related to SailPoint IIQ)
+
+To fully utilize the SailPoint product features at initial, we need to type 2 commands in the iiq console. They are
+
+1) import init. xml
+2) import init-lcm.xml
+
+Finally, you need to start the Tomcat server. To start it, you need to click on the  startup Windows batch file, which is located in C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin
+
+Other 2 approach to start Tomcat is to 1)type startup.bat in the command prompt
+										  2)In Windows search, open services and look for Apache Tomcat and click on it, and start or restart. 
+										  
+To stop the server, you can follow the same steps, but instead of startup, you need to use shutdown.
