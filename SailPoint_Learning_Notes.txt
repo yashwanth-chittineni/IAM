@@ -1,0 +1,79 @@
+
+SailPoint Learning Notes
+=========================
+
+Introduction to SailPoint
+-------------------------
+Before diving into SailPoint, it's essential to understand IAM (Identity and Access Management).
+
+What is IAM?
+------------
+IAM is a concept, framework, or subdomain of cybersecurity. It ensures secure and appropriate access to systems, applications, and data.
+
+IAM Principles – Least Privilege:
+Providing the right access to the right identity at the right time to the right resources.
+
+Right Access Means:
+- Users have correct roles and entitlements
+- Passwords are managed securely and timely
+- Access is reviewed periodically
+
+Right Time – LCM (Lifecycle Management):
+IAM uses LCM to manage identity from:
+- Joining
+- Promotion
+- Transfers
+- Termination
+
+IAM tools help automate these processes.
+
+Example: If an employee changes departments, their access should reflect their new responsibilities.
+
+Also, access reviews help ensure access is granted only when needed.
+
+What is an Identity?
+--------------------
+In IAM, a user is called an identity.
+
+Types of Identities:
+- Human identities: Employees, contractors, third-party vendors
+- Non-human identities: IoT devices, RPA bots, service/system accounts
+
+Why is IAM Important?
+---------------------
+IAM addresses major challenges:
+- Data breaches: Prevents misuse of sensitive data like bank info or personal records
+- Server misuse
+- Boosts productivity by automating access processes
+
+Key IAM Components
+------------------
+Authentication:
+Verifying the user is legitimate (e.g., username + password)
+
+Authorization:
+Verifying the user has permissions to access or perform a specific task
+
+What is SailPoint?
+------------------
+SailPoint is a web-based application that supports:
+- IAM (Identity and Access Management)
+- IGA (Identity Governance and Administration)
+
+SailPoint Offers:
+- Governance: Enforces internal rules, policies, and standards
+- Compliance: Ensures alignment with external regulations and audit requirements
+
+Why Choose SailPoint?
+---------------------
+- Leader in the IAM/IGA space
+- Highly customizable
+- Easy migration from other tools
+- Strong support system:
+  - SailPoint Support Team
+  - SailPoint Compass Community: Forums, FAQs, developer/admin discussions
+
+Technology Behind SailPoint
+---------------------------
+- Built using Java and Spring Framework
+- The user interface is developed using Java Server Faces (JSF)
